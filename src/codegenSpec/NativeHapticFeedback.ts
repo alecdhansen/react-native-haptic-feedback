@@ -8,6 +8,7 @@ export interface Spec extends TurboModule {
       enableVibrateFallback?: boolean;
       ignoreAndroidSystemSettings?: boolean;
     },
+    debug?: boolean,
   ): void;
 }
 

@@ -27,3 +27,8 @@ export interface HapticOptions {
   enableVibrateFallback?: boolean;
   ignoreAndroidSystemSettings?: boolean;
 }
+
+export interface HapticDebugEvent {
+  type: string;
+  options?: Record<string, any>;
+}
